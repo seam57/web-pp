@@ -1,4 +1,5 @@
 body.lato-thin {
+  margin: 0px;
     font-family: "Lato", sans-serif;
     font-weight: 100;
     font-style: normal;
@@ -62,19 +63,77 @@ h1{
     font-size: 50px;
   
 }
+h2{
+  font-size: 30px;
+}
+P{
+  color: gray;
+}
  .name{
-    color: chartreuse;
+    color: rgb(0, 140, 255);
  }
  .war{
     color: brown;
     
  }
  .half{
-    float: left;
+    
     width: 40%;
+    float: left;
     margin-left: 5%;
     padding-left: 2%;
+  
  }
  .half img{
-  width: 150%;
+  width: 100%;
  }
+ .top-banner{
+  
+  background-image: url("chobi/top-banner.png");
+  background-repeat: no-repeat;
+ }
+ section{
+  height: 500px;
+  padding-bottom:150px ;
+ }
+ .link{
+  text-decoration: none;
+  background-image: linear-gradient(RED,pink);
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+
+ }
+ .team{
+  color: darkgreen;
+  font-weight: 700;
+ }
+ .lul{
+  background-image:url(chobi/dream-bg.png) ;
+  background-repeat: no-repeat;
+  background-position: right;
+ }
+ .single{
+  box-shadow: 10px 10px 40px rgb(135, 114, 98);
+  border-radius: 5px;
+  height: 60%;
+ }
+ .single{
+  background-image: url(chobi/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+ }
+ #firstone{
+  border-left: 5px solid;
+  border-image: linear-gradient(180deg , rgb(128, 66, 77), yellow);
+  border-image-slice: 1;
+ }
+ #baby{
+  border-left: 5px solid ;
+  border-image: linear-gradient(180deg,green, lightblue);
+  border-image-slice: 1;
+ }
+  
+
+ 
